@@ -1,5 +1,34 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
+   ContactForm = () => (
+    <form method="POST">
+              <fieldset>
+                <div>
+                  <label htmlFor="contactName">Name <span className="required">*</span></label>
+                  <input type="text"  placeholder="Your Name Here"  size={35} id="contactName" name="contactName" />
+                </div>
+                <div>
+                  <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+                  <input type="text" placeholder="Your Email Here" size={35} id="contactEmail" name="contactEmail" />
+                </div>
+                <div>
+                  <label htmlFor="contactSubject">Subject</label>
+                  <input type="text" placeholder="Please enter subject for your message here" size={35} id="contactSubject" name="contactSubject" />
+                </div>
+                <div>
+                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                  <textarea cols={50} placeholder="Please enter your message here" rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                </div>
+                <input name="_formsubmit_id" type="text" hidden></input>
+                <div>
+                  <button className="submit">Submit</button>
+                  <span id="image-loader">
+                    <img alt="" src="images/loader.gif" />
+                  </span>
+                </div>
+              </fieldset>
+            </form>
+  )
   render() {
     return (
       <React.Fragment>
@@ -7,38 +36,37 @@ export default class Header extends Component {
       <section id="contact">
         <div className="row section-head">
           <div className="two columns header-col">
-            <h1><span>Get In Touch.</span></h1>
+            <h1><span>Get In Touch <br></br>(This Form Works)</span></h1>
           </div>
           <div className="ten columns">
-            <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+            <p className="lead">Whether you have a question about me, my profile or you need a Software Engineer on your team, 
+            Please feel free to contact me.
             </p>
           </div>
         </div>
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action method="post" id="contactForm" name="contactForm">
+            <form action="https://formspree.io/manmeetgill.sjsu@gmail.com" method="POST" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                  <input type="text"  placeholder="Your Name Here"  size={35} id="contactName" name="name" />
                 </div>
                 <div>
                   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                  <input type="text" placeholder="Your Email Here" size={35} id="contactEmail" name="email" />
                 </div>
                 <div>
                   <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                  <input type="text" placeholder="Please enter subject for your message here" size={35} id="contactSubject" name="subject" />
                 </div>
                 <div>
                   <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                  <textarea cols={50} placeholder="Please enter your message here" rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
-                  <button className="submit">Submit</button>
+                  <input type="submit" className="submit" value="SUBMIT"></input>
                   <span id="image-loader">
                     <img alt="" src="images/loader.gif" />
                   </span>
@@ -56,32 +84,10 @@ export default class Header extends Component {
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
-                Jonathan Doe<br />
-                1600 Amphitheatre Parkway <br />
-                Mountain View, CA 94043 US<br />
-                <span>(123) 456-7890</span>
+                Manmeet Singh Gill<br />
+                San Jose, CA, USA<br />
+                <span>(669) 282-0508</span>
               </p>
-            </div>
-            <div className="widget widget_tweets">
-              <h4 className="widget-title">Latest Tweets</h4>
-              <ul id="twitter">
-                <li>
-                  <span>
-                    This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                    Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b><a href="#">2 Days Ago</a></b>
-                </li>
-                <li>
-                  <span>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                    eaque ipsa quae ab illo inventore veritatis et quasi
-                    <a href="#">http://t.co/CGIrdxIlI3</a>
-                  </span>
-                  <b><a href="#">3 Days Ago</a></b>
-                </li>
-              </ul>
             </div>
           </aside>
         </div>
