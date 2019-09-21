@@ -801,6 +801,18 @@ call-to-action .button {
 	color: #fff;
 	background-color: #11ABB0;
 }
+#contact input.max-width-fitcontent{
+   text-transform: uppercase;
+	letter-spacing: 3px;
+	color:#fff;
+   background: #0D0D0D;
+	border: none;
+   cursor: pointer;
+   height: auto;
+   display: inline-block;
+	border-radius: 3px;
+   max-width:fit-content;
+}
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -813,7 +825,7 @@ call-to-action .button {
 	border-radius: 3px;
    margin-left: 26%;
 }
-#contact button.submit:hover {
+#contact input.submit:hover {
 	color: #0D0D0D;
 	background: #fff;
 }

@@ -66,7 +66,7 @@ export default class Header extends Component {
                   <textarea cols={50} placeholder="Please enter your message here" rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
                 </div>
                 <div>
-                  <input type="submit" className="submit" value="SUBMIT"></input>
+                  <input type="submit" className="submit max-width-fitcontent" value="SUBMIT"></input>
                   <span id="image-loader">
                     <img alt="" src="images/loader.gif" />
                   </span>
