@@ -2,5 +2,5 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/d3donv2ifsil/public_html  # Add /<app_folder> if required 
-        - /bin/cp /build/* $DEPLOYPATH                      #copy all from sub folder root
+        - /bin/cp * $DEPLOYPATH                      #copy all from sub folder root
         
