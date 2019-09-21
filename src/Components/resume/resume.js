@@ -85,7 +85,7 @@ export default class Header extends Component {
             <div className="bars">
               <ul className="skills">
                 <li><span className="bar-expand java" /><em>Java</em></li>
-                <li><span className="bar-expand js" /><em>JavaScript</em></li>
+                <li><span className="bar-expand javascript" /><em>JavaScript</em></li>
                 <li><span className="bar-expand python" /><em>Python</em></li>
                 <li><span className="bar-expand css" /><em>CSS</em></li>
                 <li><span className="bar-expand html5" /><em>HTML5</em></li>
