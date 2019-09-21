@@ -10,6 +10,7 @@ export default class Header extends Component {
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
+              <h2>RightPrice</h2>
                 <div className="item-wrap">
                   <a href="#modal-01" title="">
                     <img alt="not found" src='images/portfolio/rightprice.jpeg' />
@@ -24,9 +25,10 @@ export default class Header extends Component {
                 </div>
               </div> {/* item end */}
               <div className="columns portfolio-item">
+              <h2>GeneTree</h2>
                 <div className="item-wrap">
                   <a href="#modal-02" title>
-                    <img alt="" src="images/portfolio/console.jpg" />
+                    <img alt="" src="images/portfolio/genetree.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>GeneTree</h5>
@@ -38,9 +40,10 @@ export default class Header extends Component {
                 </div>
               </div> {/* item end */}
               <div className="columns portfolio-item">
+              <h2>Spartan Connections</h2>
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt="" src="images/portfolio/judah.jpg" />
+                    <img alt="" src="images/portfolio/spartanconnections.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Spartan Connections</h5>
@@ -52,9 +55,10 @@ export default class Header extends Component {
                 </div>
               </div> {/* item end */}
               <div className="columns portfolio-item">
+              <h2>Twitter-who-posted</h2>
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt="" src="images/portfolio/into-the-light.jpg" />
+                    <img alt="" src="images/portfolio/twitter-who-posted.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Twitter-who-posted</h5>
@@ -66,9 +70,10 @@ export default class Header extends Component {
                 </div>
               </div> {/* item end */}
               <div className="columns portfolio-item">
+              <h2>Graduate Admissions Predictor</h2>
                 <div className="item-wrap">
                   <a href="#modal-05" title>
-                    <img alt="" src="images/portfolio/farmerboy.jpg" />
+                    <img alt="" src="images/portfolio/graduation-predictor.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Graduate Admissions Predictor</h5>
@@ -99,7 +104,7 @@ export default class Header extends Component {
             </div>
           </div>{/* modal-01 End */}
           <div id="modal-02" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-genetree.jpg" alt="" />
             <div className="description-box">
               <h4>GeneTree</h4>
               <p>Launched a web application that can build genetic family trees using the user provided information.
@@ -114,7 +119,7 @@ export default class Header extends Component {
             </div>
           </div>{/* modal-02 End */}
           <div id="modal-03" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-spartanconnections.jpg" alt="" />
             <div className="description-box">
               <h4>Spartan Connections</h4>
               <p>Built a student portal in a team using Agile methodologies designing ReactJS based Web App which help Students in mentoring/advising by creating connections/links with their senior students & Alumni of the university.
@@ -127,7 +132,7 @@ export default class Header extends Component {
             </div>
           </div>{/* modal-03 End */}
           <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-twitter-who-posted.jpg" alt="" />
             <div className="description-box">
               <h4>Twitter-who-posted</h4>
               <p>Developed a machine learning project to identity the original owner of the post. This application analyses the tweets from the users to identify other posts form them. Used tdifvectorizer to find ngrams and vectorize the data.
@@ -140,7 +145,7 @@ export default class Header extends Component {
             </div>
           </div>{/* modal-04 End */}
           <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-graduation-predictor.jpg" alt="" />
             <div className="description-box">
               <h4>Graduate Admissions Predictor</h4>
               <p>Designed a machine learning model for predicting the chances that a student will get admission in a certain graduate school given his scores like GRE scores, TOEFL scores etc.

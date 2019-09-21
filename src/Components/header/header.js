@@ -25,11 +25,11 @@ export default class Header extends Component {
                 and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
               <ul className="social">
-                <li><a href="mailto:manmeetgill.sjsu@gmail.com"><i className="fa fa-envelope" /></a></li>
+                <li><a href="mailto:contact@manmeetsinghgill.com"><i className="fa fa-envelope" /></a></li>
                 <li><a href="https://twitter.com/ManmeetSinghGi8"><i className="fa fa-twitter" /></a></li>
                 <li><a href="https://github.com/manmeet-gill"><i className="fa fa-github" /></a></li>
                 <li><a href="https://www.linkedin.com/in/manmeet-gill1/"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="#"><i className="fa fa-download"></i></a></li>
+                <li><a href="./assets/Resume_ManmeetGill.pdf" download><i className="fa fa-download"></i></a></li>
               </ul>
             </div>
           </div>

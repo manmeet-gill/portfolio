@@ -47,7 +47,7 @@ export default class Header extends Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action="https://formspree.io/manmeetgill.sjsu@gmail.com" method="POST" id="contactForm" name="contactForm">
+            <form action="https://formspree.io/contact@manmeetsinghgill.com" method="POST" id="contactForm" name="contactForm">
               <fieldset>
                 <div>
                   <label htmlFor="contactName">Name <span className="required">*</span></label>
