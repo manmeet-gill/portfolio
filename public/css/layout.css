@@ -329,7 +329,7 @@ ul#nav li.current a { color: #F06000; }
      width: 90%;
   	
 }
-.js {
+.javascript {
   	width: 82%;
   	
 }
@@ -632,7 +632,7 @@ call-to-action .button {
 }
 #testimonials blockquote cite {
    display: block;
-   font-size: 12px;
+   font-size: 16px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
