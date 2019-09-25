@@ -24,7 +24,7 @@ export default class Header extends Component {
                     San Jose, CA, USA
                   </span><br />
                   <span>(669)282-0508</span><br />
-                  <span>anyone@website.com</span>
+                  <span>manmeetgill.sjsu@gmail.com</span>
                 </p>
               </div>
               <div className="columns download">
